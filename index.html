@@ -6,15 +6,279 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Frameworks -->
     <link rel="stylesheet" href="frameworks/bootstrap.min.css">
+    <!-- Bootstrap icons  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Manrope:wght@400;500&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Manrope:wght@300;400;500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <!-- My Style  -->
     <link rel="stylesheet" href="style.css">
     <title>Honda CBR Bootstrap Assignment || Emon Ahmed</title>
 </head>
 <body>
-    <h1>Texting Frameworks</h1>
+    <!-- Header Section Start  -->
+    <header>
+        <!-- Navbar Section Start  -->
+        <nav class="navbar navbar-expand-md navbar-light py-3 py-md-2">
+            <div class="container">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i></button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav me-auto"></ul>
+                <span class="navbar-text">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link  text-white active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link  text-white" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link  text-white" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-white" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item ms-md-5">
+                            <a class="nav-link ms-md-5 px-4 btn new-bg-primary text-white" href="#">Login</a>
+                        </li>
+                    </ul>
+                </span>
+              </div>
+            </div>
+        </nav>
+        <!-- Navbar Section End  -->
+
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <div class="w-50 text-white">
+                    <span class="fw-light font-size-14">Computer-controlled digital transistorized with electronic advance</span>
+                    <h1 class="py-2 font-size-48">Honda CBR 300R</h1>
+                    <p class="fw-light">Computer-controlled digital transistorized with electronic advanceComputer-controlled digital transistorized with electronic advance.</p>
+                    <a class="btn new-bg-primary text-white px-5 py-2" href="#">Purchase</a>
+                </div>
+                <div>
+                    <img class="img-fluid p-5" src="images/header-bike.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End  -->
+
+    <!-- Featured Bike Section Start  -->
+    <section class="container pb-4">
+        <div class="text-center my-5">
+            <h1 class="font-size-48 fw-bolder">Fetured Bikes 2021</h1>
+            <p class="new-text-primary fw-bolder font-size-14 after-border-style">Best bike collection</p>
+        </div>
+        <div class="d-md-flex justify-content-between my-5">
+            <div><img class="img-fluid p-5 cursor-pointer" src="images/feature-bike.jpg" alt="" src:=""></div>
+            <div><img class="img-fluid p-5 cursor-pointer" src="images/feature-bike.jpg" alt="" src:=""></div>
+            <div><img class="img-fluid p-5 cursor-pointer" src="images/feature-bike.jpg" alt="" src:=""></div>
+        </div>
+    </section>
+    <!-- Featured Bike Section End  -->
+    
+    <!-- Latest News Section Start  -->
+    <section class="container pb-5">
+        <div class="text-center my-5">
+            <h1 class="font-size-48 fw-bolder">Latest News</h1>
+        </div>
+        <div class="d-md-flex justify-content-center my-5">
+            <!-- First Artical  -->
+            <article class="card p-3 mx-3 mb-3" style="width: 18rem;">
+                <img src="images/bike-1.png" class="card-img-top" alt="...">
+                <div class="card-body p-0">
+                    <h5 class="card-title pt-4 fw-bolder">Ducati XDIAVEL S-73</h5>
+                    <p class="card-text pb-3 fw-normal new-text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn font-size-18 new-outline">Read More</a>
+                </div>
+            </article>
+
+            <!-- Second Artical  -->
+            <article class="card p-3 mx-3 mb-3" style="width: 18rem;">
+                <img src="images/bike-2.png" class="card-img-top" alt="...">
+                <div class="card-body p-0">
+                    <h5 class="card-title pt-4 fw-bolder">Motorcycles & Scooters</h5>
+                    <p class="card-text pb-3 new-text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn font-size-18 new-outline">Read More</a>
+                </div>
+            </article>
+
+            <!-- Third Artical  -->
+            <article class="card p-3 mx-3 mb-3" style="width: 18rem;">
+                <img src="images/bike-3.png" class="card-img-top" alt="...">
+                <div class="card-body p-0">
+                    <h5 class="card-title pt-4 fw-bolder">2021 Honda CBR500R</h5>
+                    <p class="card-text pb-3 new-text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn font-size-18 new-outline">Read More</a>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- Latest News Section End -->
+
+    <!-- Testominal Section Start -->
+    <section class="container pb-5">
+        <div class="text-center my-5">
+            <h1 class="font-size-48 fw-bolder">Happy <span class="new-text-primary">Clients Says</span></h1>
+        </div>
+        <div class="d-md-flex justify-content-center my-5">
+            <div class="card p-3 mx-3 mb-3" style="width: 17rem;">
+                <img src="images/user-1.png" class="card-img-top px-5 rounded-circle mb-3" alt="...">
+                <div class="card-body p-0">
+                    <p class="text-center card-text fw-light new-text-secondary">Slate helps you see how 
+                        many more days you need 
+                        to work to reach your financial 
+                        goal for the month and year.
+                    </p>     
+                    <div class="text-center new-text-primary pb-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <p class="text-center">Regina Miles</p>
+                    <p class="text-center">Banker</p>
+                </div>
+            </div>
+            <div class="card p-3 mx-3 mb-3" style="width: 17rem;">
+                <img src="images/user-2.png" class="card-img-top px-5 rounded-circle mb-3" alt="...">
+                <div class="card-body p-0">
+                    <p class="text-center card-text fw-light new-text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="text-center new-text-primary pb-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <p class="text-center new-link-color font-size-14">Regina Miles</p>
+                    <p class="text-center">Banker</p>
+                </div>
+            </div>
+            <div class="card p-3 mx-3 mb-3" style="width: 17rem;">
+                <img src="images/user-3.png"class="card-img-top px-5 rounded-circle mb-3" alt="...">
+                <div class="card-body p-0">
+                    <p class="card-text fw-light new-text-secondary text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="text-center new-text-primary pb-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <p class="text-center new-link-color font-size-14">Regina Miles</p>
+                    <p class="text-center">Banker</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testominal Section Start -->
+
+    <!-- FAQ Section Start  -->
+    <div class="container pb-5">
+        <div class="text-center my-5">
+            <h1 class="font-size-48 fw-bolder pb-4">Frequently Asked <span class="new-text-primary">Questions</span></h1>
+        </div>
+
+        <div class="d-md-flex mb-3">
+            <div class="w-50 mb-5">
+                <img width="400px" class="img-fluid" src="images/faq.png" alt="">
+            </div>
+            <div class="w-50 p-0">
+                <div class="accordion" id="accordionExample">
+                  <!-- First FAQ  -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          What are the most important things I should know about riding a bike?
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Second FAQ  -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          How can I tell if my helmet is old and I need a new one?
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Third FAQ  -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                          My bike has been in storage is it safe to ride?
+                        </button>
+                      </h2>
+                      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                        </div>
+                      </div>
+                    </div>   
+                    
+                    <!-- Fourth FAQ  -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          What rules should I follow when riding my bike?
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <!-- FAQ Section End  -->
+
+    <!-- Footer Section Start  -->
+    <footer>
+      <div class="container d-md-flex justify-content-between align-items-center py-5">
+        <div>
+            <div class="text-white py-2">
+              <span>Download Now</span><span>License</span>
+            </div>
+            <div class="text-white py-2">
+              <span>About</span>
+              <span>Features</span>
+              <span>Pricing</span>
+              <span>Careers</span>
+              <span>Help</span>
+              <span>Privacy Policy</span>
+            </div>
+            <div class="text-white py-2 font-size-14">
+              <span class="footer-text">&copy; 2021 bike. All rights reserved</span>
+            </div>
+        </div>
+      <div>
+        <img src="images/download.png" alt="App Store">
+      </div>
+      </div>
+      
+    </footer>
+    <!-- Footer Section End  -->
+
+    <script src="frameworks/bootstrap.min.js"></script>
 </body>
 </html>
