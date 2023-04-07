@@ -49,25 +49,13 @@ footer span{
 .font-size-68{
     font-size: 68px;
 }
-.after-border-style{
-    text-align: center;
-}
-.after-border-style::after{
-    content: '';
-    display: block;
-    border: 1px solid #E76F51;
-    width: 60px;
-    margin: auto;
-}
+
 .cursor-pointer{
     cursor: pointer;
 }
 .custom-grayscale{
     filter: grayscale(100%);
 }
-
-@media (max-width: 768px) { 
-   .w-50{
-       width: 100% !important;;
-   }
- }
+.custom-grayscale:hover{
+    filter: grayscale(00%);
+}

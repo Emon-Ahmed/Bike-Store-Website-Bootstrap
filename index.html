@@ -104,7 +104,7 @@
               </div>
               <div class="modal-body text-dark">
                 <form class="row g-3">
-                  <div class="col-md-6">
+                  <div class="col-md-12">
                     <label for="inputEmail4" class="form-label">Email</label>
                     <input
                       type="email"
@@ -144,8 +144,10 @@
       <!-- Navbar Section End  -->
 
       <div class="container">
-        <div class="d-md-flex justify-content-between align-items-center">
-          <div class="w-50 text-white">
+        <div
+          class="row text-center text-md-start justify-content-between align-items-center"
+        >
+          <div class="col-md-6 text-white py-5 py-lg-0">
             <span class="fw-light font-size-14"
               >Computer-controlled digital transistorized with electronic
               advance</span
@@ -218,7 +220,7 @@
                           type="Number"
                           class="form-control"
                           id="inputPassword4"
-                          placeholder="+880 1921412932"
+                          placeholder="+880 1900 000000"
                         />
                       </div>
                       <div class="col-12">
@@ -261,7 +263,7 @@
                           type="text"
                           class="form-control"
                           id="inputZip"
-                          placeholder="1350"
+                          placeholder="0000"
                         />
                       </div>
                     </form>
@@ -283,7 +285,7 @@
             </div>
             <!-- Modal End  -->
           </div>
-          <div>
+          <div class="col-md-6">
             <img class="img-fluid p-5" src="images/header-bike.png" alt="" />
           </div>
         </div>
@@ -295,22 +297,31 @@
     <section class="container pb-4" id="shop">
       <div class="text-center my-5">
         <h1 class="font-size-48 fw-bolder">
-          Featured Bikes <span class="new-text-primary">2021</span>
+          Featured <span class="new-text-primary">Bikes</span>
         </h1>
         <p class="text-dark fw-bolder font-size-18">Best bike collection</p>
       </div>
-      <div class="d-md-flex justify-content-between my-5">
-        <div>
-          <img class="img-fluid p-5 cursor-pointer custom-grayscale"
-          src="images/feature-bike.jpg" alt="" src:="">
+      <div class="row justify-content-between my-5">
+        <div class="col-md-4 text-center">
+          <img
+            class="img-fluid p-5 cursor-pointer custom-grayscale"
+            src="images/feature-bike.jpg"
+            alt="Bikes"
+          />
         </div>
-        <div>
-          <img class="img-fluid p-5 cursor-pointer"
-          src="images/feature-bike.jpg" alt="" src:="">
+        <div class="col-md-4 text-center">
+          <img
+            class="img-fluid p-5 cursor-pointer custom-grayscale"
+            src="images/feature-bike.jpg"
+            alt="Bikes"
+          />
         </div>
-        <div>
-          <img class="img-fluid p-5 cursor-pointer custom-grayscale"
-          src="images/feature-bike.jpg" alt="" src:="">
+        <div class="col-md-4 text-center">
+          <img
+            class="img-fluid p-5 cursor-pointer custom-grayscale"
+            src="images/feature-bike.jpg"
+            alt="Bikes"
+          />
         </div>
       </div>
     </section>
@@ -319,20 +330,22 @@
     <!-- Latest News Section Start  -->
     <section class="container pb-5" id="news">
       <div class="text-center my-5">
-        <h1 class="font-size-48 fw-bolder">Latest News</h1>
+        <h1 class="font-size-48 fw-bolder">
+          Latest <span class="new-text-primary"> News</span>
+        </h1>
       </div>
       <div class="row justify-content-center mx-auto my-5">
         <!-- First Article  -->
         <div class="col-md-4">
-          <article class="card p-3 mx-3 mb-3" >
+          <article class="card p-3 mx-3 mb-3">
             <img src="images/bike-1.png" class="card-img-top" alt="..." />
-            <div class="card-body p-0">
+            <div class="card-body p-0 text-center text-md-start">
               <h5 class="card-title pt-4 fw-bolder">Ducati XDIAVEL S-73</h5>
               <p class="card-text pb-3 fw-normal new-text-secondary">
                 XDiavel, the Ducati cruiser that combines the best of both
                 worlds, is renewed, still remaining true to its philosophy.
               </p>
-              <a href="#about" class="btn font-size-18 new-outline"
+              <a href="#" class="btn font-size-18 new-outline"
                 >Read More</a
               >
             </div>
@@ -341,16 +354,16 @@
 
         <!-- Second Article  -->
         <div class="col-md-4">
-          <article class="card p-3 mx-3 mb-3" >
+          <article class="card p-3 mx-3 mb-3">
             <img src="images/bike-2.png" class="card-img-top" alt="..." />
-            <div class="card-body p-0">
+            <div class="card-body p-0 text-center text-md-start">
               <h5 class="card-title pt-4 fw-bolder">Motorcycles & Scooters</h5>
               <p class="card-text pb-3 new-text-secondary">
                 Buy Motorcycles & Scooters and get the best deals at the lowest
                 prices on Our Store! Great Savings & Free Delivery on many
                 items.
               </p>
-              <a href="#about" class="btn font-size-18 new-outline"
+              <a href="#" class="btn font-size-18 new-outline"
                 >Read More</a
               >
             </div>
@@ -359,16 +372,15 @@
 
         <!-- Third Article  -->
         <div class="col-md-4">
-          <article class="card p-3 mx-3 mb-3" >
+          <article class="card p-3 mx-3 mb-3">
             <img src="images/bike-3.png" class="card-img-top" alt="..." />
-            <div class="card-body p-0">
+            <div class="card-body p-0 text-center text-md-start">
               <h5 class="card-title pt-4 fw-bolder">2021 Honda CBR500R</h5>
               <p class="card-text pb-3 new-text-secondary">
                 2021 CBR500R ABS OVERVIEW - Honda Is it any wonder why the Honda
-                CBR500R is one of our most popular sportbikes? It just gets so
-                many things right.
+                CBR500R is one of our most popular sport bikes?
               </p>
-              <a href="#about" class="btn font-size-18 new-outline"
+              <a href="#" class="btn font-size-18 new-outline"
                 >Read More</a
               >
             </div>
@@ -382,74 +394,84 @@
     <section class="container pb-5" id="client">
       <div class="text-center my-5">
         <h1 class="font-size-48 fw-bolder">
-          Happy <span class="new-text-primary">Clients Says</span>
+          Happy <span class="new-text-primary">Clients</span>
         </h1>
       </div>
-      <div class="d-md-flex justify-content-center my-5">
-        <div class="card p-3 mx-3 mb-3" style="width: 17rem">
-          <img
-            src="images/user-1.png"
-            class="card-img-top px-5 rounded-circle mb-3"
-            alt="..."
-          />
-          <div class="card-body p-0">
-            <p class="text-center card-text fw-light new-text-secondary">
-              Thank you so much, I am always happy to help with another
-              challenging project! You're the BEST.
-            </p>
-            <div class="text-center new-text-primary pb-2">
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star"></i>
+      <div class="row justify-content-center my-5">
+        <div class="col-md-4">
+          <div class="card p-3 mx-3 mb-3">
+            <img
+              src="images/user-1.png"
+              class="card-img-top px-5 rounded-circle mb-3"
+              alt="..."
+            />
+            <div class="card-body p-0">
+              <p class="text-center card-text fw-light new-text-secondary">
+                Thank you so much, I am always happy to help with another
+                challenging project! You're the BEST.
+              </p>
+              <div class="text-center new-text-primary pb-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+              </div>
+              <p class="text-center new-link-color font-size-14">
+                Aminul Islam
+              </p>
+              <p class="text-center">Developer</p>
             </div>
-            <p class="text-center new-link-color font-size-14">Aminul Islam</p>
-            <p class="text-center">Developer</p>
           </div>
         </div>
-        <div class="card p-3 mx-3 mb-3" style="width: 17rem">
-          <img
-            src="images/user-2.png"
-            class="card-img-top px-5 rounded-circle mb-3"
-            alt="..."
-          />
-          <div class="card-body p-0">
-            <p class="text-center card-text fw-light new-text-secondary">
-              Thank you so much, I am always happy to help with another
-              challenging project! You're the BEST.
-            </p>
-            <div class="text-center new-text-primary pb-2">
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star"></i>
+        <div class="col-md-4">
+          <div class="card p-3 mx-3 mb-3">
+            <img
+              src="images/user-2.png"
+              class="card-img-top px-5 rounded-circle mb-3"
+              alt="..."
+            />
+            <div class="card-body p-0">
+              <p class="text-center card-text fw-light new-text-secondary">
+                Thank you so much, I am always happy to help with another
+                challenging project! You're the BEST.
+              </p>
+              <div class="text-center new-text-primary pb-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+              </div>
+              <p class="text-center new-link-color font-size-14">
+                Regina Miles
+              </p>
+              <p class="text-center">Banker</p>
             </div>
-            <p class="text-center new-link-color font-size-14">Regina Miles</p>
-            <p class="text-center">Banker</p>
           </div>
         </div>
-        <div class="card p-3 mx-3 mb-3" style="width: 17rem">
-          <img
-            src="images/user-3.png"
-            class="card-img-top px-5 rounded-circle mb-3"
-            alt="..."
-          />
-          <div class="card-body p-0">
-            <p class="card-text fw-light new-text-secondary text-center">
-              Thank you so much, I am always happy to help with another
-              challenging project! You're the BEST.
-            </p>
-            <div class="text-center new-text-primary pb-2">
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star-fill"></i>
-              <i class="bi bi-star"></i>
+        <div class="col-md-4">
+          <div class="card p-3 mx-3 mb-3">
+            <img
+              src="images/user-3.png"
+              class="card-img-top px-5 rounded-circle mb-3"
+              alt="..."
+            />
+            <div class="card-body p-0">
+              <p class="card-text fw-light new-text-secondary text-center">
+                Thank you so much, I am always happy to help with another
+                challenging project! You're the BEST.
+              </p>
+              <div class="text-center new-text-primary pb-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+              </div>
+              <p class="text-center new-link-color font-size-14">Miles</p>
+              <p class="text-center">Designer</p>
             </div>
-            <p class="text-center new-link-color font-size-14">Sadia Afrin</p>
-            <p class="text-center">Designer</p>
           </div>
         </div>
       </div>
@@ -464,11 +486,11 @@
         </h1>
       </div>
 
-      <div class="d-md-flex mb-3">
-        <div class="w-50 mb-5">
+      <div class="row mb-3 mx-3">
+        <div class="col-md-6 mb-5">
           <img width="400px" class="img-fluid" src="images/faq.png" alt="" />
         </div>
-        <div class="w-50 p-0">
+        <div class="col-md-6 p-0">
           <div class="accordion" id="accordionExample">
             <!-- First FAQ  -->
             <div class="accordion-item">
@@ -601,50 +623,51 @@
         </h1>
         <p class="text-dark fw-bolder font-size-18">About Honda Bike</p>
       </div>
-      <div class="d-md-flex align-items-center">
-        <div><img width="250px" src="images/woman.png" alt="" /></div>
-        <div class="p-5 pt-5">
-          <div class="d-md-flex pb-5">
-            <i class="bi bi-bicycle font-size-48 p-3"></i>
-            <div>
-              <h4>Many Types of Bikes</h4>
-              <p class="new-text-secondary font-size-14">
-                We can fit you with the perfect bike because we carry all sizes
-                and types of bikes.
-              </p>
-            </div>
-          </div>
-          <div class="d-md-flex pb-5">
-            <i class="bi bi-star font-size-48 p-3"></i>
-            <div>
-              <h4>Best Bikes in Town</h4>
-              <p class="new-text-secondary font-size-14">
-                Comfort. Safety. Our equipment is guaranteed to make your biking
-                experience 100% stree-free.
-              </p>
-            </div>
-          </div>
+      <div class="row align-items-center mx-3">
+        <div class="col-md-3 text-center text-md-start">
+          <img width="250px" src="images/woman.png" alt="" />
         </div>
-
-        <div class="p-5 pt-5">
-          <div class="d-md-flex pb-5">
-            <i class="bi bi-clock font-size-48 p-3"></i>
-            <div>
-              <h4>Longest Opening Hours</h4>
-              <p class="new-text-secondary font-size-14">
-                Have all the time in the world? Rent for an entire day and
-                explore New York City at your leisure.
-              </p>
+        <div class="col-md-9 p-5 pt-5">
+          <div class="row">
+            <div class="pb-5 col-6">
+              <i class="bi bi-bicycle font-size-48 p-3"></i>
+              <div>
+                <h4>Many Types of Bikes</h4>
+                <p class="new-text-secondary font-size-14">
+                  We can fit you with the perfect bike because we carry all
+                  sizes and types of bikes.
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="d-md-flex pb-5">
-            <i class="bi bi-shield-lock font-size-48 p-3"></i>
-            <div>
-              <h4>Rent Fully Insured</h4>
-              <p class="new-text-secondary font-size-14">
-                A simple bodily injury claim from a customer riding your bike
-                can derail your business.
-              </p>
+            <div class="pb-5 col-6">
+              <i class="bi bi-star font-size-48 p-3"></i>
+              <div>
+                <h4>Best Bikes in Town</h4>
+                <p class="new-text-secondary font-size-14">
+                  Comfort. Safety. Our equipment is guaranteed to make your
+                  biking experience 100% stree-free.
+                </p>
+              </div>
+            </div>
+            <div class="pb-5 col-6">
+              <i class="bi bi-clock font-size-48 p-3"></i>
+              <div>
+                <h4>Longest Opening Hours</h4>
+                <p class="new-text-secondary font-size-14">
+                  Have all the time in the world? Rent for an entire day and
+                  explore New York City at your leisure.
+                </p>
+              </div>
+            </div>
+            <div class="pb-5 col-6">
+              <i class="bi bi-shield-lock font-size-48 p-3"></i>
+              <div>
+                <h4>Rent Fully Insured</h4>
+                <p class="new-text-secondary font-size-14">
+                  A simple bodily injury claim from a customer riding your bike
+                  can derail your business.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -662,11 +685,11 @@
           Want to get in touch? We'd love to hear from you.
         </p>
       </div>
-      <div class="d-md-flex mb-5">
-        <div class="w-50 p-5">
+      <div class="row mb-5">
+        <div class="col-md-6 p-5">
           <img class="img-fluid" src="images/contact.svg" alt="" />
         </div>
-        <div class="w-50">
+        <div class="col-md-6">
           <div class="mb-2">
             <label for="exampleFormControlInput1" class="form-label"
               >Name</label
@@ -743,7 +766,7 @@
       </div>
     </footer>
     <!-- Footer Section End  -->
-    
+
     <script src="frameworks/bootstrap.min.js"></script>
   </body>
 </html>
